@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navBar_homepage"
+        android:enabled="true"
+        android:icon="@drawable/homepage"
+        android:title="@string/NavBar_Home"/>
+    <item
+        android:id="@+id/navBar_roteiros"
+        android:enabled="true"
+        android:icon="@drawable/route"
+        android:title="@string/NavBar_Itineraries"/>
+    <item
+        android:id="@+id/navBar_perfil"
+        android:enabled="true"
+        android:icon="@drawable/user"
+        android:title="@string/NavBar_Profile"/>
+    <item
+        android:id="@+id/navBar_contactos"
+        android:enabled="true"
+        android:icon="@drawable/phone_call"
+        android:title="@string/NavBar_Emergency"/>
+</menu>

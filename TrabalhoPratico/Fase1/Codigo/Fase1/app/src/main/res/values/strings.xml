@@ -1,0 +1,119 @@
+<resources>
+
+    <!-- MANIFEST FILE -->
+    <string name="app_name">BraGuia</string>
+
+    <!-- LOGIN -->
+    <string name="Login_Username">Username</string>
+    <string name="Login_Password">Password</string>
+    <string name="Login_Confirm">Confirm</string>
+    <string name="Login_ContentDescription">Braguia Logo</string>
+    <string name="errorMessage">Error: Wrong name or password</string>
+
+    <!-- SETTINGS -->
+    <string name="Settings_Switch">Notifications</string>
+    <string name="Settings_contentDescription">Location</string>
+    <string name="Settings_contentDescriptionBell">Bell</string>
+    <string name="Settings_captureInterval">Capture Interval(s)</string>
+    <string name="Settings_notifDistance">Notification Distance(m)</string>
+
+    <!-- SINGLETRAIL -->
+    <string name="Single_Trail_Stop">Stop</string>
+    <string name="Single_Trail_Thumbnail">Thumbnail</string>
+    <string name="Single_Trail_Name">Trail Name</string>
+    <string name="Single_Trail_Duration">Duration (min)</string>
+    <string name="Single_Trail_Description">Description</string>
+    <string name="Single_Trail_Itinerary">Itinerary</string>
+    <string name="Single_Trail_ContentDescriptionStar">Star Icon</string>
+    <string name="Single_Trail_Difficulty">Difficulty</string>
+    <string name="Single_Trail_Start">Start</string>
+    <string name="Single_Trail_Total_Dist">Total distance (m) : %s</string>
+    <string name="Single_Trail_Total_Seconds">Total time (s) : %s </string>
+    <string name="Single_Trail_dialog_title_stopped">Trail Stopped</string>
+    <string name="Single_Trail_dialog_title_concluded">Trail Completed!</string>
+    <string name="Single_Trail_dialog_Places_Visited">Places visited/to visit: %d/%d</string>
+    <string name="Single_Trail_dialog_ok">Okay</string>
+
+    <!-- POINT OF INTEREST TRAIL CARD -->
+    <string name="pinTrailCard_SeBraga">Sé de Braga</string>
+    <string name="pinTrailCard_Description">The Sé of Braga, also known as the Braga Cathedral, is a magnificent example of Baroque architecture located in the historic city of Braga, Portugal. This grand cathedral was built in the 11th century, and has undergone numerous renovations and additions ....</string>
+    <string name="PinTrailCard_ImageDesc">Pin Trail Card Image</string>
+
+    <!-- NAV BAR -->
+    <string name="NavBar_Emergency">Emergency</string>
+    <string name="NavBar_Profile">Profile</string>
+    <string name="NavBar_Itineraries">Trails</string>
+    <string name="NavBar_Home">Home</string>
+
+    <!-- URL's -->
+    <string name="urlLogin">https://c5a2-193-137-92-29.eu.ngrok.io/login</string>
+    <string name="urlTrails">https://c5a2-193-137-92-29.eu.ngrok.io/trails</string>
+    <string name="urlApp">https://c5a2-193-137-92-29.eu.ngrok.io/app</string>
+    <string name="urlProfile">https://c5a2-193-137-92-29.eu.ngrok.io/user</string>
+
+    <!-- TRAILS -->
+    <string name="DurationLabel">Duration: </string>
+    <string name="trailImage">Trail image</string>
+
+    <!-- HISTORY -->
+    <string name="DateLabel">Date: </string>
+    <string name="trailDoneIcon">Icon showing trail is finished</string>
+    <string name="trailNotDone">Icon showing trail is not finished</string>
+    <string name="trailCancelled">Icon showing trail is cancelled</string>
+    <string name="TrailDurationLabel">Trail Duration: </string>
+    <string name="timeToFinishLabel">Time to Finish: </string>
+    <string name="distanceLabel">Distance Traveled: </string>
+
+    <!-- CONTACT -->
+    <string name="WebsiteLabel">Website: </string>
+    <string name="EmailLabel">Email: </string>
+    <string name="DescriptionLabel">Description: </string>
+    <string name="NumberLabel">Number: </string>
+    <string name="DescriptionCall">Icon to make a call</string>
+
+    <!-- FAVORITES -->
+    <string name="starIcon">Icon of a star as a favorite</string>
+    <string name="title_activity_favorites">Favorites</string>
+
+    <!-- PROFILE -->
+    <string name="profileEmail">Email:</string>
+    <string name="profilePremiumContentDesc">Premium Logo</string>
+    <string name="profileUserContentDesc">User Stock Photo</string>
+    <string name="check_history">Check History</string>
+    <string name="check_favorites">Check Favorites</string>
+    <string name="profilelogoutbtn">profileLogoutBtn</string>
+    <string name="profile_settings_button">Profile Settings Button</string>
+
+    <!-- NOTIFICAÇÕES -->
+    <string name="MiniNotif">&lt;b>Heads Up!&lt;/b> You\'re very close to this incredible place!</string>
+    <string name="BigNotif">&lt;p>&lt;b>Heads Up!&lt;/b> You\'re very close to this incredible place! &lt;b>Click&lt;/b> on me to find more about it :)</string>
+
+    <!-- HOME PAGE -->
+    <string name="homeMapsWarning1">NOTE: This app needs</string>
+    <string name="homeMapsWarning2">in order to work properly, so if you don\'t have it, please install it first!</string>
+    <string name="home_applogoDesc">AppLogo</string>
+    <string name="home_mapsiconDesc">MapsIcon</string>
+    <string name="home_highlightLabel">Today\'s Highlight Pin</string>
+    <string name="home_contactsLabel">Contacts</string>
+    <string name="home_partnersLabel">Partners</string>
+    <string name="home_socialsLabel">Socials</string>
+    <string name="home_pinthumbnailDesc">Pin\'s Thumbnail</string>
+
+    <!-- POINT OF INTEREST -->
+    <string name="pin_descLabel">Description:</string>
+    <string name="pinThumbnail">Pin Thumbnail</string>
+    <string name="pinExtras">Properties:</string>
+    <string name="set_to_visited">Mark as Visited</string>
+    <string name="pin_mediaBtnLabel">Media</string>
+    <string name="pin_locationLabel">Location</string>
+
+    <!-- MEDIA -->
+    <string name="media_nothingToShow">"Nothing to show :("</string>
+    <string name="media_playAudio">Play Audio</string>
+    <string name="media_resetAudio">Reset Audio</string>
+    <string name="media_pauseAudio">Pause Audio</string>
+    <string name="media_playVideo">Play</string>
+    <string name="media_pauseVideo">Pause</string>
+    <string name="media_downloadAllMedia">Download All Media</string>
+
+</resources>

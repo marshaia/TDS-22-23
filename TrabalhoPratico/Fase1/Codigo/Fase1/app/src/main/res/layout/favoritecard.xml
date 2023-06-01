@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/favoriteCard"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lavender"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:textSize="23sp"
+                android:id="@+id/favoritetitle"
+                />
+
+            <ImageView
+                android:contentDescription="@string/starIcon"
+                android:id="@+id/star"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/star"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/favoritetitle"
+                />
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"
+            android:text="@string/DurationLabel"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="60dp"
+            android:id="@+id/favoriteduration"
+            />
+
+        <ImageView
+            android:contentDescription="@string/trailImage"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/favoriteimage"
+            />
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

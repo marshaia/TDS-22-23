@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/trailHistoryCard"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lavender"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:textSize="23sp"
+                android:id="@+id/trailtitle"
+                />
+
+            <ImageView
+                android:contentDescription="@string/trailDoneIcon"
+                android:id="@+id/trailDone"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/accept"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/trailtitle"
+                android:visibility="invisible"
+                />
+
+            <ImageView
+                android:contentDescription="@string/trailNotDone"
+                android:id="@+id/trailNotDone"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/cycle"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/trailtitle"
+                android:visibility="invisible"
+                />
+
+            <ImageView
+                android:contentDescription="@string/trailCancelled"
+                android:id="@+id/trailStopped"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/cancelled"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/trailtitle"
+                android:visibility="invisible"
+                />
+
+
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"
+            android:text="@string/TrailDurationLabel"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="60dp"
+            android:id="@+id/trailduration"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="80dp"
+            android:textStyle="bold"
+            android:text="@string/timeToFinishLabel"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="80dp"
+            android:id="@+id/trailTimeToFinish"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="100dp"
+            android:textStyle="bold"
+            android:text="@string/distanceLabel"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="100dp"
+            android:id="@+id/trailDistanceTraveled"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="120dp"
+            android:textStyle="bold"
+            android:text="@string/DateLabel"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="120dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/trailDate"
+            />
+
+
+        <ImageView
+            android:contentDescription="@string/trailImage"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/trailimage"
+            />
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

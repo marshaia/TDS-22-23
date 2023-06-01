@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/contactName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/contactNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/NumberLabel"
+                android:textStyle="bold"
+                android:layout_below="@id/contactName"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/contactNumberValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/contactNumber"
+                android:layout_below="@+id/contactName"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/contactURL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/WebsiteLabel"
+                android:textStyle="bold"
+                android:layout_below="@id/contactNumber"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/contactURLvalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/contactNumber"
+                android:layout_toEndOf="@+id/contactURL"
+                android:autoLink="web"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/contactMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EmailLabel"
+                android:textStyle="bold"
+                android:layout_below="@id/contactURL"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/contactMailvalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/contactURL"
+                android:layout_toEndOf="@+id/contactMail"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/contactDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/DescriptionLabel"
+                android:textStyle="bold"
+                android:layout_below="@id/contactMail"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/contactDescriptionvalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/contactMail"
+                android:layout_toEndOf="@+id/contactDescription"
+                />
+
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:contentDescription="@string/DescriptionCall"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/phone_call"
+            android:layout_gravity="end"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/callIcon"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+</RelativeLayout>
