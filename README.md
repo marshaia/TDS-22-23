@@ -16,9 +16,9 @@ Teve como objetivo a pesquisa detalhada sobre desenvolvimento *cross-platform* e
 ## __Trabalho Prático__
 Este projeto, desenvolvido em duas partes, incidiu sobre o desenvolvimento de um __guia turístico__, sob a forma de uma aplicação móvei híbrida. Esta aplicação é caracterizada por fornecer orientação turística ao oferecer roteiros turísticos aos seus utilizadores, oferecendo funcionalidades de localização, navegação geográfica, reprodução de _media_ acerca de pontos de interesse, entre outros.
 
-__Parte I:__ Desenvolvimento da mesma recorrendo a tecnologia nativa _Android_
+__Parte I:__ Desenvolvimento da mesma recorrendo a tecnologia nativa _Android_ (19,59 valores)
 
-__Parte II:__ Desenvolvimento _cross-platform_ recorrendo a _React Native_
+__Parte II:__ Desenvolvimento _cross-platform_ recorrendo a _React Native_ (16,87 valores)
 
 
 ### __Feito por:__
