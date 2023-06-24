@@ -22,6 +22,6 @@ __Parte II:__ Desenvolvimento _cross-platform_ recorrendo a _React Native_ (__Av
 
 
 ### __Feito por:__
-- [Catarina Gonçalves pg50180](https://github.com/CatarinaOG)
-- [Francisco Toldy pg50379](https://github.com/ftoldy1415)
+- [Catarina Gonçalves](https://github.com/CatarinaOG)
+- [Francisco Toldy](https://github.com/ftoldy1415)
 - [Joana Alves](https://github.com/marshaia)
