@@ -10,7 +10,3 @@ __Primeira__ parte do projeto desenvovido no âmbito da unidade curricular de T�
 - [Catarina Gonçalves pg50180](https://github.com/CatarinaOG)
 - [Francisco Toldy pg50379](https://github.com/ftoldy1415)
 - [Joana Alves pg50457](https://github.com/marshaia)
-
-
-
-__Avaliação:__ X?? valores
