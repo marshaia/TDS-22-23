@@ -1,0 +1,400 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fase2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:4:5-79
+13-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:4:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.facebook.flipper:flipper:0.125.0] /home/joana/.gradle/caches/transforms-3/7791fe77b8ab9730d0e25ce55c6aa090/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.125.0] /home/joana/.gradle/caches/transforms-3/7791fe77b8ab9730d0e25ce55c6aa090/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->[:supersami_rn-foreground-service] /home/joana/Desktop/Projetos-TDS/Fase2/node_modules/@supersami/rn-foreground-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-77
+15-->[:supersami_rn-foreground-service] /home/joana/Desktop/Projetos-TDS/Fase2/node_modules/@supersami/rn-foreground-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-74
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[:supersami_rn-foreground-service] /home/joana/Desktop/Projetos-TDS/Fase2/node_modules/@supersami/rn-foreground-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+16-->[:supersami_rn-foreground-service] /home/joana/Desktop/Projetos-TDS/Fase2/node_modules/@supersami/rn-foreground-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->[:react-native-fs] /home/joana/Desktop/Projetos-TDS/Fase2/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+17-->[:react-native-fs] /home/joana/Desktop/Projetos-TDS/Fase2/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+18-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:22-76
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+19-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:18.0.2] /home/joana/.gradle/caches/transforms-3/189eb831011d70b66f6d3e01d41a6374/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:18.0.2] /home/joana/.gradle/caches/transforms-3/189eb831011d70b66f6d3e01d41a6374/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:18.0.2] /home/joana/.gradle/caches/transforms-3/189eb831011d70b66f6d3e01d41a6374/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+24
+25    <queries>
+25-->[com.google.android.gms:play-services-maps:18.0.2] /home/joana/.gradle/caches/transforms-3/189eb831011d70b66f6d3e01d41a6374/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+26
+27        <!-- Needs to be explicitly declared on Android R+ -->
+28        <package android:name="com.google.android.apps.maps" />
+28-->[com.google.android.gms:play-services-maps:18.0.2] /home/joana/.gradle/caches/transforms-3/189eb831011d70b66f6d3e01d41a6374/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+28-->[com.google.android.gms:play-services-maps:18.0.2] /home/joana/.gradle/caches/transforms-3/189eb831011d70b66f6d3e01d41a6374/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+29    </queries>
+30
+31    <application
+31-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:6:5-43:19
+32        android:name="com.fase2.MainApplication"
+32-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:7:7-38
+33        android:allowBackup="false"
+33-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:11:7-34
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.7.0] /home/joana/.gradle/caches/transforms-3/c05df83dbc847297b7ccad2bb18337e0/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:9:7-41
+37        android:label="@string/app_name"
+37-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:8:7-39
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:10:7-52
+39        android:theme="@style/AppTheme"
+39-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:12:7-38
+40        android:usesCleartextTraffic="true" >
+40-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/debug/AndroidManifest.xml:8:9-44
+41        <activity
+41-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/debug/AndroidManifest.xml:11:9-111
+42            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+42-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/debug/AndroidManifest.xml:11:19-83
+43            android:exported="false" />
+43-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/debug/AndroidManifest.xml:11:84-108
+44
+45        <meta-data
+45-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:13:7-16:9
+46            android:name="com.supersami.foregroundservice.notification_channel_name"
+46-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:14:9-81
+47            android:value="Sticky Title" />
+47-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:15:9-37
+48        <meta-data
+48-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:17:7-20:9
+49            android:name="com.supersami.foregroundservice.notification_channel_description"
+49-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:18:9-88
+50            android:value="Sticky Description." />
+50-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:19:9-44
+51        <meta-data
+51-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:21:7-24:9
+52            android:name="com.supersami.foregroundservice.notification_color"
+52-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:22:9-74
+53            android:resource="@color/blue" />
+53-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:23:9-39
+54
+55        <service android:name="com.supersami.foregroundservice.ForegroundService" />
+55-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:25:7-91
+55-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:25:16-80
+56        <service android:name="com.supersami.foregroundservice.ForegroundServiceTask" />
+56-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:26:7-95
+56-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:26:16-84
+57
+58        <activity
+58-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:28:7-39:18
+59            android:name="com.fase2.MainActivity"
+59-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:29:9-37
+60            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+60-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:31:9-118
+61            android:exported="true"
+61-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:34:9-32
+62            android:label="@string/app_name"
+62-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:30:9-41
+63            android:launchMode="singleTask"
+63-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:32:9-40
+64            android:windowSoftInputMode="adjustResize" >
+64-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:33:9-51
+65            <intent-filter>
+65-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:35:9-38:25
+66                <action android:name="android.intent.action.MAIN" />
+66-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:36:13-65
+66-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:36:21-62
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:37:13-73
+68-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:37:23-70
+69            </intent-filter>
+70        </activity>
+71
+72        <meta-data
+72-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:40:7-42:67
+73            android:name="com.google.android.geo.API_KEY"
+73-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:41:9-54
+74            android:value="AIzaSyA7xqDjkmGSkExeSTub6G_HgCjDuchjV7I" />
+74-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:42:9-64
+75
+76        <activity
+76-->[:supersami_rn-foreground-service] /home/joana/Desktop/Projetos-TDS/Fase2/node_modules/@supersami/rn-foreground-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-22:20
+77            android:name="com.supersami.foregroundservice.MainActivity"
+77-->[:supersami_rn-foreground-service] /home/joana/Desktop/Projetos-TDS/Fase2/node_modules/@supersami/rn-foreground-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-72
+78            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+78-->[:supersami_rn-foreground-service] /home/joana/Desktop/Projetos-TDS/Fase2/node_modules/@supersami/rn-foreground-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-83
+79            android:exported="true"
+79-->[:supersami_rn-foreground-service] /home/joana/Desktop/Projetos-TDS/Fase2/node_modules/@supersami/rn-foreground-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-36
+80            android:launchMode="singleTask"
+80-->[:supersami_rn-foreground-service] /home/joana/Desktop/Projetos-TDS/Fase2/node_modules/@supersami/rn-foreground-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+81            android:windowSoftInputMode="adjustResize" >
+81-->[:supersami_rn-foreground-service] /home/joana/Desktop/Projetos-TDS/Fase2/node_modules/@supersami/rn-foreground-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-55
+82            <intent-filter>
+82-->[:supersami_rn-foreground-service] /home/joana/Desktop/Projetos-TDS/Fase2/node_modules/@supersami/rn-foreground-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-21:29
+83                <action android:name="android.intent.action.MAIN" />
+83-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:36:13-65
+83-->/home/joana/Desktop/Projetos-TDS/Fase2/android/app/src/main/AndroidManifest.xml:36:21-62
+84            </intent-filter>
+85        </activity>
+86
+87        <provider
+87-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+88            android:name="androidx.startup.InitializationProvider"
+88-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+89            android:authorities="com.fase2.androidx-startup"
+89-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+90            android:exported="false" >
+90-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+91            <meta-data
+91-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+92                android:name="androidx.work.WorkManagerInitializer"
+92-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+93                android:value="androidx.startup" />
+93-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+94            <meta-data
+94-->[androidx.emoji2:emoji2:1.0.0] /home/joana/.gradle/caches/transforms-3/f1880cf4497a0a81e315b120458930c1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+95                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+95-->[androidx.emoji2:emoji2:1.0.0] /home/joana/.gradle/caches/transforms-3/f1880cf4497a0a81e315b120458930c1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+96                android:value="androidx.startup" />
+96-->[androidx.emoji2:emoji2:1.0.0] /home/joana/.gradle/caches/transforms-3/f1880cf4497a0a81e315b120458930c1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+97            <meta-data
+97-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/joana/.gradle/caches/transforms-3/d734cd817a6eba2dc56ecab0ed4b46f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+98                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+98-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/joana/.gradle/caches/transforms-3/d734cd817a6eba2dc56ecab0ed4b46f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+99                android:value="androidx.startup" />
+99-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/joana/.gradle/caches/transforms-3/d734cd817a6eba2dc56ecab0ed4b46f1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+100        </provider>
+101
+102        <service
+102-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+103            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+103-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+104            android:directBootAware="false"
+104-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+105            android:enabled="@bool/enable_system_alarm_service_default"
+105-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+106            android:exported="false" />
+106-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+107        <service
+107-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+108            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+108-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+109            android:directBootAware="false"
+109-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+110            android:enabled="@bool/enable_system_job_service_default"
+110-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+111            android:exported="true"
+111-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+112            android:permission="android.permission.BIND_JOB_SERVICE" />
+112-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+113        <service
+113-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+114            android:name="androidx.work.impl.foreground.SystemForegroundService"
+114-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+115            android:directBootAware="false"
+115-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+116            android:enabled="@bool/enable_system_foreground_service_default"
+116-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+117            android:exported="false" />
+117-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+118
+119        <receiver
+119-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+120            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+120-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+121            android:directBootAware="false"
+121-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+122            android:enabled="true"
+122-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+123            android:exported="false" />
+123-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+124        <receiver
+124-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+125            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+125-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+126            android:directBootAware="false"
+126-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+127            android:enabled="false"
+127-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+128            android:exported="false" >
+128-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+129            <intent-filter>
+129-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+130                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+130-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+130-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+131                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+131-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+131-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+132            </intent-filter>
+133        </receiver>
+134        <receiver
+134-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+135            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+135-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+136            android:directBootAware="false"
+136-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+137            android:enabled="false"
+137-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+138            android:exported="false" >
+138-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+139            <intent-filter>
+139-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+140                <action android:name="android.intent.action.BATTERY_OKAY" />
+140-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+140-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+141                <action android:name="android.intent.action.BATTERY_LOW" />
+141-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+141-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+142            </intent-filter>
+143        </receiver>
+144        <receiver
+144-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+145            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+145-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+146            android:directBootAware="false"
+146-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+147            android:enabled="false"
+147-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+148            android:exported="false" >
+148-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+149            <intent-filter>
+149-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+150                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+150-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+150-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+151                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+151-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+151-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+152            </intent-filter>
+153        </receiver>
+154        <receiver
+154-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+155            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+155-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+156            android:directBootAware="false"
+156-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+157            android:enabled="false"
+157-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+158            android:exported="false" >
+158-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+159            <intent-filter>
+159-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+160                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+160-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+160-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+161            </intent-filter>
+162        </receiver>
+163        <receiver
+163-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+164            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+164-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+165            android:directBootAware="false"
+165-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+166            android:enabled="false"
+166-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+167            android:exported="false" >
+167-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+168            <intent-filter>
+168-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+169                <action android:name="android.intent.action.BOOT_COMPLETED" />
+169-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+169-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+170                <action android:name="android.intent.action.TIME_SET" />
+170-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+170-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+171                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+171-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+171-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+172            </intent-filter>
+173        </receiver>
+174        <receiver
+174-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+175            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+175-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+176            android:directBootAware="false"
+176-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+177            android:enabled="@bool/enable_system_alarm_service_default"
+177-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+178            android:exported="false" >
+178-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+179            <intent-filter>
+179-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+180                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+180-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+180-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+181            </intent-filter>
+182        </receiver>
+183        <receiver
+183-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+184            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+184-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+185            android:directBootAware="false"
+185-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+186            android:enabled="true"
+186-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+187            android:exported="true"
+187-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+188            android:permission="android.permission.DUMP" >
+188-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+189            <intent-filter>
+189-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+190                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+190-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+190-->[androidx.work:work-runtime:2.7.1] /home/joana/.gradle/caches/transforms-3/fd9dc4d0d85fd0495e580b582ff9a3c7/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+191            </intent-filter>
+192        </receiver>
+193
+194        <service
+194-->[androidx.room:room-runtime:2.2.5] /home/joana/.gradle/caches/transforms-3/229489cf0e331fbb0783dede15e429be/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+195            android:name="androidx.room.MultiInstanceInvalidationService"
+195-->[androidx.room:room-runtime:2.2.5] /home/joana/.gradle/caches/transforms-3/229489cf0e331fbb0783dede15e429be/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+196            android:directBootAware="true"
+196-->[androidx.room:room-runtime:2.2.5] /home/joana/.gradle/caches/transforms-3/229489cf0e331fbb0783dede15e429be/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+197            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+197-->[androidx.room:room-runtime:2.2.5] /home/joana/.gradle/caches/transforms-3/229489cf0e331fbb0783dede15e429be/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+198        <uses-library
+198-->[com.google.android.gms:play-services-maps:18.0.2] /home/joana/.gradle/caches/transforms-3/189eb831011d70b66f6d3e01d41a6374/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+199            android:name="org.apache.http.legacy"
+199-->[com.google.android.gms:play-services-maps:18.0.2] /home/joana/.gradle/caches/transforms-3/189eb831011d70b66f6d3e01d41a6374/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+200            android:required="false" />
+200-->[com.google.android.gms:play-services-maps:18.0.2] /home/joana/.gradle/caches/transforms-3/189eb831011d70b66f6d3e01d41a6374/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+201
+202        <activity
+202-->[com.google.android.gms:play-services-base:18.1.0] /home/joana/.gradle/caches/transforms-3/b83e17027077728320a69840354fdfe3/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+203            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+203-->[com.google.android.gms:play-services-base:18.1.0] /home/joana/.gradle/caches/transforms-3/b83e17027077728320a69840354fdfe3/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+204            android:exported="false"
+204-->[com.google.android.gms:play-services-base:18.1.0] /home/joana/.gradle/caches/transforms-3/b83e17027077728320a69840354fdfe3/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+205            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+205-->[com.google.android.gms:play-services-base:18.1.0] /home/joana/.gradle/caches/transforms-3/b83e17027077728320a69840354fdfe3/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+206
+207        <meta-data
+207-->[com.google.android.gms:play-services-basement:18.1.0] /home/joana/.gradle/caches/transforms-3/d907f746f04f215d6be91c8609ed7a91/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+208            android:name="com.google.android.gms.version"
+208-->[com.google.android.gms:play-services-basement:18.1.0] /home/joana/.gradle/caches/transforms-3/d907f746f04f215d6be91c8609ed7a91/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+209            android:value="@integer/google_play_services_version" />
+209-->[com.google.android.gms:play-services-basement:18.1.0] /home/joana/.gradle/caches/transforms-3/d907f746f04f215d6be91c8609ed7a91/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+210    </application>
+211
+212</manifest>
