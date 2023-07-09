@@ -14,7 +14,7 @@ Teve como objetivo a pesquisa detalhada sobre desenvolvimento *cross-platform* e
 
 
 ## __Trabalho Prático__
-Este projeto, desenvolvido em duas partes, incidiu sobre o desenvolvimento de um __guia turístico__, sob a forma de uma aplicação móvei híbrida. Esta aplicação é caracterizada por fornecer orientação turística ao oferecer roteiros turísticos aos seus utilizadores, oferecendo funcionalidades de localização, navegação geográfica, reprodução de _media_ acerca de pontos de interesse, entre outros.
+Este projeto, desenvolvido em duas partes, incidiu sobre o desenvolvimento de um __guia turístico__, sob a forma de uma aplicação móvel híbrida. Esta aplicação é caracterizada por fornecer orientação turística ao oferecer roteiros turísticos aos seus utilizadores, oferecendo funcionalidades de localização, navegação geográfica, reprodução de _media_ acerca de pontos de interesse, entre outros.
 
 __Parte I:__ Desenvolvimento da mesma recorrendo a tecnologia nativa _Android_ (__Avaliação:__ 19,59 valores)
 
